@@ -9,6 +9,8 @@ Our dataset consists of the text in the tweet and the event label for each tweet
 1. Tweet: This is the sequence of sentences for each tweet.
 2. Label(event): This is to determine if it is a disaster or not a disaster tweet.
 
+Dataset: https://www.kaggle.com/competitions/nlp-getting-started/code 
+
 Data-preprocessing
 At first, we extract the data from the CSV file and split it into testing and training sets with 10% and 90%. From this 90%, the  data will later use 10% for validation. The  variable is set to 1000, which means we randomly pick the data from the dataset while splitting to ensure there is no connection in the order of the data.
 
